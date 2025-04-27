@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('m.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Center the content */
+.content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay to improve text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
